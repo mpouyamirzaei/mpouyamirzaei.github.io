@@ -1,2 +1,2 @@
-- 👋 Hi, I’m @mpouyamirzaei
-- 🌱 I’m currently learning python
+Hello, my name is Pouya.
+I am a Biomedical Engineering Masters student at Marquette University. 
