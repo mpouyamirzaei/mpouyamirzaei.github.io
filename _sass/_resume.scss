@@ -136,12 +136,12 @@
 .content-section {
   margin: 0 0 1rem;
 
-  .resume-item { margin-bottom: 0; }
+  .resume-item { margin-bottom: 0.25; }
 
   .resume-item-title {
     @include sans;
     font-weight: bold;
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.5rem;
     font-size: 1.5rem;
     letter-spacing: 0;
     line-height: 1;
@@ -173,7 +173,7 @@
     }
   }
 
-  .resume-item-copy { margin: .75rem 0 0; }
+  .resume-item-copy { margin: .25rem 0 0; }
 }
 
 // footer styles
