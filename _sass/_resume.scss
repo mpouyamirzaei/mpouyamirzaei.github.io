@@ -134,13 +134,14 @@
 // RESUME CONTACT STYLES
 
 .content-section {
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
 
-  .resume-item { margin-bottom: 1rem; }
+  .resume-item { margin-bottom: 0; }
 
   .resume-item-title {
-    @include sans_bold;
-    margin: 0 0 .5;
+    @include Helvetica;
+    font-weight: bold;
+    margin: 0 0 0.25rem;
     font-size: 1.5rem;
     letter-spacing: 0;
     line-height: 1;
@@ -148,7 +149,7 @@
 
   .resume-item-details {
     font-size: 1.125rem;
-    margin: 0 0 .5rem;
+    margin: 0 0 0.25rem;
     line-height: 1;
 
     &.award-title {
