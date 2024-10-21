@@ -49,7 +49,7 @@
 
   .title-bar {
     @include section_border;
-    margin-top: 2rem;
+    margin-top: .5rem;
     padding: .4rem 0;
     @include clearfix;
 
@@ -57,10 +57,10 @@
       @include sans;
       font-weight: 300;
       font-size: 1.75rem;
-      line-height: 2rem;
+      line-height: 1rem;
       letter-spacing: -.05rem;
       text-align: center;
-      margin: 0 0 1.5rem;
+      margin: 0 0 1rem;
 
       @include media_larger_than_mobile {
         float: left;
@@ -110,9 +110,10 @@
 
 .contact-button {
   @include border-radius(3px);
-  background-color: #efefef;
+  background-color: #999;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
   display: block;
   margin: 1.5rem auto;
   width: 220px;
@@ -130,7 +131,7 @@
   &.not-looking { width: 400px; }
 }
 
-// resume content styles
+// RESUME CONTACT STYLES
 
 .content-section {
   margin: 0 0 2rem;
