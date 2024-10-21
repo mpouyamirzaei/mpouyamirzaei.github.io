@@ -133,13 +133,13 @@
 // resume content styles
 
 .content-section {
-  margin: 0 0 3rem;
+  margin: 0 0 2rem;
 
-  .resume-item { margin-bottom: 2rem; }
+  .resume-item { margin-bottom: 1rem; }
 
   .resume-item-title {
     @include sans_bold;
-    margin: 0 0 .75;
+    margin: 0 0 .5;
     font-size: 1.5rem;
     letter-spacing: 0;
     line-height: 1;
@@ -147,7 +147,7 @@
 
   .resume-item-details {
     font-size: 1.125rem;
-    margin: 0 0 .75rem;
+    margin: 0 0 .5rem;
     line-height: 1;
 
     &.award-title {
