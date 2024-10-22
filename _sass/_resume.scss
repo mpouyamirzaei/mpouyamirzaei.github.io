@@ -204,7 +204,7 @@
   body { font-size: 12px; line-height: 1rem; }
   .page-header { padding: 1rem 0 .2rem;
     .header-name {
-      @include sans_bold;
+      @include sans;
       font-size: 2rem;
       margin: 0 0 .2rem;
     }
